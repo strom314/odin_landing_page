@@ -9,6 +9,10 @@
 
     margin: 128px;
     margin-top: 0;
+    margin-bottom: 0;
+
+    /* temporary */
+    background-color: lightblue;
 }
 
 .page-header {
@@ -45,9 +49,46 @@
     flex-direction: column;
 }
 
+.main-title-text img {
+    flex: auto;
+}
+
 /* OTHER */
 .no-style-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+
+/* SECTION NUMBER 2 */
+.section-2 {
+    background-color: lightgrey;
+}
+
+.section-2 .content {
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    flex: 0 1 auto;
+    width: 80px;
+    height: 120px;
+    border: 2px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
 }
