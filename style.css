@@ -79,8 +79,9 @@ a:hover {
 
 
 .main-title img {
+    width: 100%;
+    min-width: 10%;
     flex: 0 1 auto;
-    max-width: 100%;
     margin-left: 10px;
 }
 
