@@ -25,9 +25,11 @@ body {
 }
 
 button {
-    width: 100px;
+    width: 120px;
     height: 40px;
     flex-grow: 0;
+    border-radius: 10px;
+
 }
 
 .page-header {
@@ -92,7 +94,6 @@ button {
     align-items: center;
     justify-content: flex-start;
     padding: 40px;
-    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.303));
 }
 
 .card-container {
@@ -114,6 +115,7 @@ button {
 
     flex-grow: 0;
 
+
     /* border: 2px solid black; */
 }
 
@@ -121,7 +123,11 @@ button {
     border-radius: 8px;
     height: 140px;
     width: 140px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.303));
+}
 
+.card p {
+    font-size: 18px;
 }
 
 
@@ -133,8 +139,8 @@ button {
 
 .quote {
     font-style: italic;
-    color: rgb(202, 255, 171);
-    text-shadow: black 2px 2px 20px;
+    color: #b7fad4;
+    text-shadow: black 3px 3px 6px;
 
     font-size: 32px;
 }
@@ -143,7 +149,7 @@ button {
     font-weight: 700;
     text-align: right;
     font-size: 22px;
-    color: rgb(165, 203, 142);
+    color: #b7fad4;
 }
 
 
@@ -157,7 +163,7 @@ button {
     flex-direction: row;
     align-items: center;
 
-    padding: 40px;
+    padding: 60px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -168,7 +174,7 @@ button {
     justify-content: space-between;
     flex: 1;
 
-    padding: 20px;
+    padding: 10px;
     padding-left: 80px;
     padding-right: 80px;
 
@@ -201,20 +207,28 @@ h3 {
     font-family: 'Palatino', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.main-title-text h1{
+.main-title-text h1 {
+    margin: 0;
     font-size: 48px;
     font-weight: 900;
 }
-.main-title-text p{
+
+.main-title-text p {
     font-size: 20px;
 }
-.content h2{
+
+.content h2 {
     font-size: 30px;
 }
 
-.bubble h3{
+.bubble h3 {
     font-size: 24px;
 }
-.bubble p{
+
+.bubble p {
     font-size: 20px;
+}
+
+.footer p {
+    font-size: 18px;
 }
