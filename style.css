@@ -1,13 +1,17 @@
 /* SECTION NUMBER 1 */
 .section-1 {
-    background-color: #2d6a4f;
+    background-color: #426046;
     padding-bottom: 40px;
 
-    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.573);
+    filter: drop-shadow(8px 8px 20px rgba(0, 0, 0, 0.573));
 }
 
 body {
     background-image: url(./img/pine-wallpaper.jpg);
+    background-attachment: fixed;
+
+
+    margin: 0;
 }
 
 .content {
@@ -18,8 +22,6 @@ body {
     margin-top: 0;
     margin-bottom: 0;
 
-    /* temporary */
-    background-color: #2d6a4f;
 }
 
 button {
@@ -54,7 +56,6 @@ button {
 
     margin-top: 128px;
 
-    background-color: #2d6a4f;
 }
 
 
@@ -82,16 +83,16 @@ button {
 
 /* SECTION NUMBER 2 */
 .section-2 {
-    background-color: lightgrey;
+    background-color: #426046;
+    filter: drop-shadow(8px 8px 20px rgba(0, 0, 0, 0.573));
+
 }
 
 .section-2 .content {
     align-items: center;
     justify-content: flex-start;
     padding: 40px;
-
-    /* border: 2px solid black; */
-
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.303));
 }
 
 .card-container {
@@ -132,15 +133,26 @@ button {
 
 .quote {
     font-style: italic;
+    color: rgb(202, 255, 171);
+    text-shadow: black 2px 2px 20px;
+
+    font-size: 32px;
 }
 
 .quote-author {
-    font-weight: bold;
+    font-weight: 700;
     text-align: right;
+    font-size: 22px;
+    color: rgb(165, 203, 142);
 }
 
 
 /* SECTION NUBER 4 */
+.section-4 {
+    display: flex;
+    flex-direction: column;
+}
+
 .section-4 .content {
     flex-direction: row;
     align-items: center;
@@ -160,8 +172,10 @@ button {
     padding-left: 80px;
     padding-right: 80px;
 
-    background-color: rgb(61, 61, 188);
+    background-color: #396740;
     border-radius: 8px;
+
+    filter: drop-shadow(8px 8px 20px rgba(0, 0, 0, 0.838));
 }
 
 .bubble button {
@@ -173,8 +187,34 @@ button {
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
 
-    padding-top: 40px;
-    background-color: lightgreen;
+    padding: 10px;
+    background-color: #233A30;
+}
+
+/* text */
+
+p,
+h1,
+h2,
+h3 {
+    font-family: 'Palatino', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.main-title-text h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.main-title-text p{
+    font-size: 20px;
+}
+.content h2{
+    font-size: 30px;
+}
+
+.bubble h3{
+    font-size: 24px;
+}
+.bubble p{
+    font-size: 20px;
 }
